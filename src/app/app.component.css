@@ -1,0 +1,29 @@
+.scroll-to-top p{
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color:#e6af5d;
+  font-size: 30px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+}
+.scroll-to-top p:hover {
+
+  box-shadow: 0 0 15px #ffb03b;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* تجعل الطول الأدنى يغطي 100% من ارتفاع الشاشة */
+}
+
+main {
+  flex: 1; /* يملأ المساحة المتبقية بين الهيدر والفوتر */
+}
+
+
